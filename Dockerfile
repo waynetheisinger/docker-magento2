@@ -9,3 +9,4 @@ ADD bin/* /usr/local/bin/
 
 RUN ["chmod", "+x", "/usr/local/bin/magerun2"]
 RUN ["chmod", "+x", "/usr/local/bin/magento-command"]
+RUN ["chmod", "+x", "/usr/local/bin/docked-composer"]
